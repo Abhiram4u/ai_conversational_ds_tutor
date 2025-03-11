@@ -21,7 +21,7 @@ st.markdown("""
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    image_url = "https://raw.githubusercontent.com/Abhiram4u/ai_conversational_ds_tutor/main/dstutor%200.png"
+    image_url = "https://github.com/Abhiram4u/ai_conversational_ds_tutor/blob/main/dstutor.png?raw=true"
     st.image(image_url, use_container_width=True)
    
 
