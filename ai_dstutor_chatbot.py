@@ -4,6 +4,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI  # Corrected Import
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from langchain.schema import SystemMessage
+import os
+API_KEY = os.getenv("API_KEY") 
 
 # Streamlit Page 
 st.set_page_config(page_title="AI-Powered Data Science Mentor", page_icon="", layout="wide")
@@ -25,7 +27,7 @@ with col2:
 genai.configure(api_key="AIzaSyCDhtBmRgD88X1VX8TTF30C9Iixc2fVpw0")
 
 # Initialize LangChain's Gemini Model
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", google_api_key="AIzaSyCDhtBmRgD88X1VX8TTF30C9Iixc2fVpw0")
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", google_api_key=API_KEY)
 
 # Conversation Memory Setup
 if "memory" not in st.session_state:
