@@ -20,8 +20,9 @@ st.markdown("""
 
 
 col1, col2, col3 = st.columns([1, 3, 1])
+image_url = "https://raw.githubusercontent.com/Abhiram4u/ai_conversational_ds_tutor/main/dstutor.png"
 with col2:
-    image_url = "https://raw.githubusercontent.com/Abhiram4u/ai_conversational_ds_tutor/main/dstutor.png"
+    
     st.image(image_url, use_container_width=True)
 
    
