@@ -16,11 +16,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-image_path = r"C:\Users\abhir\OneDrive\Desktop\intership-inno\dstutor.png"  
+
+
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image(image_path, use_container_width=True)
+    image_url = "https://raw.githubusercontent.com/Abhiram4u/ai_conversational_ds_tutor/main/dstutor%200.png"
+    st.image(image_url, use_container_width=True)
+   
 
 
 # Configure Google Gemini API
