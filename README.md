@@ -29,7 +29,7 @@ The **AI-Powered Data Science Mentor** is a conversational AI chatbot designed t
 
 ## Screenshots
 ### Home Page View
-![Home Page]()
+![Home Page](homepage_ui_ds_tutor.png)
 
 
 
